@@ -15,3 +15,5 @@
   - [x] BehaviorSubject
   - [x] ReplaySubject
   - [x] AsyncSubject
+- [ ] Operators (操作符)
+  - [x] 什么是操作符
