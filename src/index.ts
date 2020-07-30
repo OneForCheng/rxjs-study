@@ -4,4 +4,5 @@
 
 // import './observer/example-1'
 
-import './subscription/example-1'
+// import './subscription/example-1'
+import './subscription/example-2'

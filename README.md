@@ -6,5 +6,6 @@
   - [x] Observable 异步传递值
   - [x] Observable 剖析
 - [x] Observer (观察者)
-- [ ] Subscription (订阅)
+- [x] Subscription (订阅)
   - [x] 取消单个订阅
+  - [x] 取消合并订阅
