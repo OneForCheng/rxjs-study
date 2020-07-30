@@ -11,7 +11,7 @@ module.exports = {
     },
     devtool: 'source-map',
     module: {
-        loaders: [
+        rules: [
             {
                 test: /\.ts$/,
                 exclude: /node_modules/,
