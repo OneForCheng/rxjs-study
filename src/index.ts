@@ -2,4 +2,6 @@
 // import './observable/example-2'
 // import './observable/example-3'
 
-import './observer/example-1'
+// import './observer/example-1'
+
+import './subscription/example-1'
