@@ -12,3 +12,4 @@
 - [ ] Subject (主体)
   - [x] Subject 既是 Observable，也是观察者
   - [x] 多播的 Observables
+  - [x] BehaviorSubject
