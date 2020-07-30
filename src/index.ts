@@ -15,4 +15,6 @@
 // import './subject/example-6'
 
 // import './operators/example-1'
-import './operators/example-2'
+//import './operators/example-2'
+
+import './scheduler/example-1'
