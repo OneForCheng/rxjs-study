@@ -9,3 +9,5 @@
 - [x] Subscription (订阅)
   - [x] 取消单个订阅
   - [x] 取消合并订阅
+- [ ] Subject (主体)
+  - [x] Subject 既是 Observable，也是观察者
