@@ -24,10 +24,8 @@
   - [x] 基础
     - [x] 控制流动
     - [x] 产生值
-  - [ ] 创建应用
-    - [ ] 状态和存储 (State Store)
-      - [ ] Immutable JS
-      - [ ] React
+  - [x] 创建应用
+    - [x] 状态和存储 (State Store)
 - 高级
   - [ ] Pipeable 操作符
   - [ ] 编写弹珠测试
