@@ -35,7 +35,7 @@ const state = merge(
     }, {
         count: 0,
         inputValue: ''
-    }),
+    })
 );
 
 

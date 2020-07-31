@@ -27,6 +27,6 @@
   - [x] 创建应用
     - [x] 状态和存储 (State Store)
 - 高级
-  - [ ] Pipeable 操作符
+  - [x] Pipeable 操作符
   - [ ] 编写弹珠测试
   - [ ] 创建操作符
