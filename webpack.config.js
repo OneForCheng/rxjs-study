@@ -1,3 +1,6 @@
+const rxPaths = require('rxjs/_esm5/path-mapping');
+const webpack = require('webpack');
+
 module.exports = {
     entry: {
         index: './src/index'
@@ -7,6 +10,7 @@ module.exports = {
         filename: '[name].js'
     },
     resolve: {
+        alias: rxPaths(),
         extensions: ['.ts', '.js']
     },
     devtool: 'source-map',
@@ -19,5 +23,7 @@ module.exports = {
             }
         ]
     },
-    plugins: []
+    plugins: [
+        new webpack.optimize.ModuleConcatenationPlugin(),
+    ]
 };
