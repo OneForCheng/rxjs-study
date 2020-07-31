@@ -19,4 +19,5 @@
 
 // import './scheduler/example-1'
 
-import './other/primary/example-1'
+// import './other/primary/example-1'
+import './other/primary/example-2'
