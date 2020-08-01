@@ -1,6 +1,6 @@
 import { TestScheduler } from 'rxjs/testing';
 import { expect } from 'chai'
-import { takeEveryNthSimple } from '../../../src/other/advanced/example-1'
+import { takeModNSimple } from '../../../src/other/advanced/example-1'
 
 const testScheduler = new TestScheduler((actual, expected) => {
     // asserting the two objects are equal
@@ -9,7 +9,7 @@ const testScheduler = new TestScheduler((actual, expected) => {
 });
 
 
-it('test takeEveryNthSimple', () => {
+it('test takeModNSimple', () => {
     testScheduler.run(helpers => {
         const { cold, expectObservable } = helpers;
         const values = {
@@ -22,7 +22,7 @@ it('test takeEveryNthSimple', () => {
         const expected = '----b------|';
 
         const result = input.pipe(
-            takeEveryNthSimple(2),
+            takeModNSimple(2),
         )
 
         expectObservable(result).toBe(expected, values);
