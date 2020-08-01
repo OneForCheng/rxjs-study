@@ -8,7 +8,7 @@ import { filter, take } from 'rxjs/operators';
 /**
  * 自定义操作符
  */
-const takeEveryNth = (n: number) => <T>(source: Observable<T>) =>
+export const takeEveryNth = (n: number) => <T>(source: Observable<T>) =>
     new Observable<T>(observer => {
         return source.subscribe({
             next(x) {
@@ -22,8 +22,8 @@ const takeEveryNth = (n: number) => <T>(source: Observable<T>) =>
 /**
  * 还可以使用现有的操作符
  */
-const takeEveryNthSimple = (n: number) => <T>(source: Observable<T>) =>
-    source.pipe(filter((value, index) => index % n === 0 ))
+export const takeEveryNthSimple = (n: number) => <T>(source: Observable<T>) =>
+    source.pipe(filter(value => Number(value) % n === 0))
 
 
 interval(100).pipe(

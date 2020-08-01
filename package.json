@@ -4,7 +4,8 @@
   "description": "",
   "main": "",
   "scripts": {
-    "start": "webpack-dev-server"
+    "start": "webpack-dev-server",
+    "test": "mocha -r ./node_modules/ts-node/register  \"specs/**/*.spec.ts\""
   },
   "author": "forcheng",
   "license": "MIT",
@@ -12,7 +13,12 @@
     "rxjs": "6.6.0"
   },
   "devDependencies": {
+    "@types/chai": "^4.2.12",
+    "@types/mocha": "^8.0.1",
     "awesome-typescript-loader": "5.2.1",
+    "chai": "^4.2.0",
+    "mocha": "^8.1.0",
+    "ts-node": "^8.10.2",
     "typescript": "3.9.7",
     "webpack": "4.44.0",
     "webpack-cli": "^3.3.12",
